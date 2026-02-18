@@ -63,10 +63,11 @@ jobs:
 
             Запуск:
             $URL"
-              curl -s -X post "https://api.telegram.org/bot${{ secrets.TG_BOT_TOKEN }}/sendmess" \
+              curl -s -X post "https://api.telegram.org/bot${{ secrets.TG_BOT_TOKEN }}/sendMessage" \
               -d id_cht = "${{ secrets.ID_GROUP}}" \
               --data-urlencode text = "$txt"
             
 
    
     
+
