@@ -5,6 +5,7 @@ public class MainTest {
 
   @Test
   void ADDTest() {
-    assertEquals(5, Main.ADD(15, 6));
+    assertEquals(21, Main.ADD(15, 6));
   }
 }
+
